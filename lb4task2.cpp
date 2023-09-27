@@ -3,10 +3,12 @@ using namespace std;
 double inchesToFeet(double inches)
 {
 conversion= inches/12;
-return conversion;
+cout << "Eqivalent in feet: "<<conversion;
 }
 main()
 {
+double inches
 cout << "Enter the measurement in inches: ";
 cin>>inches;
-cout<< "Equivalent in feet: "<<inchesToFeet(inches);
+inchesToFeet(inches)
+}
