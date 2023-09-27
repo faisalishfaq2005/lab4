@@ -1,14 +1,27 @@
 #include<iostream>
+
 using namespace std;
-double inchesToFeet(double inches)
+
+void inchesToFeet(double inches)
+
 {
-conversion= inches/12;
-cout << "Eqivalent in feet: "<<conversion;
+
+double conversion= inches/12;
+
+cout << "Equivalent in feet: "<<conversion;
+
 }
+
 main()
+
 {
-double inches
+
+double inches;
+
 cout << "Enter the measurement in inches: ";
+
 cin>>inches;
+
 inchesToFeet(inches)
+;
 }

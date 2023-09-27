@@ -2,8 +2,14 @@
 using namespace std;
 void calculateFuel(double distance)
 {
+
 double fuel=distance*10;
-cout << "Fuel needed: "<<fuel;
+if (fuel>=100){
+cout<< "Fuel needed: "<<fuel;
+}else{
+int min=100;
+cout<< "Fuel needed: "<<min;
+}
 }
 main()
 {
