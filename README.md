@@ -46,16 +46,19 @@ lav-df-60frames-audio-preprocessed/
 │   │   ├── 000501_audio.flac
 │   │   ├── ...
 │   ├── labels.csv
+|   ├── train_timestamps.csv
 │
 ├── val/
 │   ├── image_frames/
 │   ├── audio_files_per_video/
 │   ├── labels.csv
+|   ├── val_timestamps.csv
 │
 ├── test/
 │   ├── image_frames/
 │   ├── audio_files_per_video/
 │   ├── labels.csv
+|   ├── test_timestamps.csv
 │
 ├── lav_df_60frames_audio_preprocessed.py
 └── README.md
