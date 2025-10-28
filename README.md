@@ -32,7 +32,7 @@ Each entry in the dataset corresponds to one frame and includes:
 
 The dataset is organized into three splits: **train**, **validation**, and **test**.
  
----
+```
 
 lav-df-60frames-audio-preprocessed/
 │
@@ -59,7 +59,7 @@ lav-df-60frames-audio-preprocessed/
 │
 ├── lav_df_60frames_audio_preprocessed.py
 └── README.md
----
+```
 
 ## 🔧 Loading the Dataset
 
