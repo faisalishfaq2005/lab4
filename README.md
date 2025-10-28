@@ -37,29 +37,28 @@ The dataset is organized into three splits: **train**, **validation**, and **tes
 lav-df-60frames-audio-preprocessed/
 │
 ├── train/
-│ ├── image_frames/
-│ │ ├── 000472_frame_0_0.jpg
-│ │ ├── 000472_frame_1_0.jpg
-│ │ ├── ...
-│ ├── audio_files_per_video/
-│ │ ├── 000472_audio.flac
-│ │ ├── 000501_audio.flac
-│ │ ├── ...
-│ ├── labels.csv
+│   ├── image_frames/
+│   │   ├── 000472_frame_0_0.jpg
+│   │   ├── 000472_frame_1_0.jpg
+│   │   ├── ...
+│   ├── audio_files_per_video/
+│   │   ├── 000472_audio.flac
+│   │   ├── 000501_audio.flac
+│   │   ├── ...
+│   ├── labels.csv
 │
 ├── val/
-│ ├── image_frames/
-│ ├── audio_files_per_video/
-│ ├── labels.csv
+│   ├── image_frames/
+│   ├── audio_files_per_video/
+│   ├── labels.csv
 │
 ├── test/
-│ ├── image_frames/
-│ ├── audio_files_per_video/
-│ ├── labels.csv
+│   ├── image_frames/
+│   ├── audio_files_per_video/
+│   ├── labels.csv
 │
 ├── lav_df_60frames_audio_preprocessed.py
 └── README.md
-
 ---
 
 ## 🔧 Loading the Dataset
